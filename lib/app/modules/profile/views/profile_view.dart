@@ -137,10 +137,14 @@ class ProfileView extends GetView<ProfileController> {
                 Center(
                   child: GestureDetector(
                     onDoubleTap: () async {
-                      final Uri _url =
-                          Uri.parse('https://github.com/mdabdullahibnaharun');
-                      if (await launchUrl(_url)) {
-                        showAlert('Could not launch $_url');
+                      try {
+                        final Uri _url =
+                            Uri.parse('https://github.com/mdabdullahibnaharun');
+                        if (await launchUrl(_url)) {
+                          showAlert('Could not launch $_url');
+                        }
+                      } catch (e) {
+                        print(e.toString());
                       }
                     },
                     child: Center(
