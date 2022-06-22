@@ -137,17 +137,15 @@ class ProfileView extends GetView<ProfileController> {
                 Center(
                   child: GestureDetector(
                     onDoubleTap: () async {
-
                       try {
                         final Uri _url =
-                            Uri.parse('https://github.com/mdabdullahibnaharun');
-                        if (await launchUrl(_url)) {
+                            Uri.parse('https://linktr.ee/mdabdullahibnaharun');
+                        if (false == (await launchUrl(_url))) {
                           showAlert('Could not launch $_url');
                         }
                       } catch (e) {
                         print(e.toString());
                       }
-
                     },
                     child: Center(
                       child: Column(
