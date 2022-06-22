@@ -137,6 +137,7 @@ class ProfileView extends GetView<ProfileController> {
                 Center(
                   child: GestureDetector(
                     onDoubleTap: () async {
+
                       try {
                         final Uri _url =
                             Uri.parse('https://github.com/mdabdullahibnaharun');
@@ -146,6 +147,7 @@ class ProfileView extends GetView<ProfileController> {
                       } catch (e) {
                         print(e.toString());
                       }
+
                     },
                     child: Center(
                       child: Column(
