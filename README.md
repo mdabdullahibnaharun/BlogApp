@@ -113,34 +113,36 @@ There are many major motivations behind this project. One of them is getting our
 
 ### Conclusion
 
-This was a great experience doing this project. This project was intended to make a basic blog application with Getx. I hope the intention of the program gets fully filled out. The challenges faced and the learning I have gone through will come of great help in the future. There is something that should be noted in this conclusion.
+This was a great experience doing this project. This project was intended to make a basic blog application with GetX. I hope the intention of the program gets fully filled out. The challenges faced and the learning I have gone through will come of great help in the future. There is something that should be noted in this conclusion.
 
 Limitations: Still there are some limitations to this blog app. If I just want to go through a brief discussion then we can say that we could make the UI more attractive. We could add more features to this project.
 
-  •	It would be better if we could add time and date for each post.
-  
-  •	It would be better if creator details were also shown in their blog post.
-  
-  •	If we could add auto-reload functionality in this app.
-  
-  •	If we could make a more efficient UI.
-  	
-We have found out the mentioned limitations above. We are so on it to meet those limitations and build a competitive application.
+• It would be better if I could add time and date for each post.
+
+• It would be better if creator details were also shown in their blog post.
+
+• If I could add auto-reload functionality in this app.
+
+• If I could make a more efficient UI.
+
+I have found out the mentioned limitations above. I am so on it to meet those limitations and build a competitive application.
 
 Highlighting point:
 
-  •	Authorized Users can create a blog post in this application.
-  
-  •	Authorized Users can update and delete any post at any time.
-  
-  •	The UI is simple and minimal.
-  
-  •	We have Favourite options.
-  
-  •	We have Firebase Authentication For better security.
+• Authorized Users can create a blog post in this application.
+
+• Authorized Users can update and delete any post at any time.
+
+• The UI is simple and minimal.
+
+• This App has Favourite options.
+
+• Firebase Authentication For better security.
+
 
 ### Future Scope
-
 This project has achieved the objective of building a simple application using flutter, The development of this project has been achieved by using dart and flutter with Getx and may dev. tools that are becoming popular and likely to be the choice for the cross-platform application. This project can be further extended as per user requirements Because this is developed by using decoupling version controlling.
 
 
+
+ 
