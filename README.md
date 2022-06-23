@@ -79,7 +79,8 @@ There are many major motivations behind this project. One of them is getting our
 
 ![image](https://user-images.githubusercontent.com/60839928/175298589-c1ee3fa7-b01d-4059-8ce9-a825d28a9ebf.png)
 
-![image](https://user-images.githubusercontent.com/60839928/175299144-1d13a53c-448e-4820-9e1a-9f89b436e787.png)
+![image](https://user-images.githubusercontent.com/60839928/175350212-6c0bbb60-230f-4fbd-b145-e1367465e1bb.png)
+
 
 ![image](https://user-images.githubusercontent.com/60839928/175298675-278ba731-89c4-4b2e-bf71-4234d58044f6.png)
 
