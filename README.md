@@ -115,29 +115,29 @@ There are many major motivations behind this project. One of them is getting our
 
 This was a great experience doing this project. This project was intended to make a basic blog application with GetX. I hope the intention of the program gets fully filled out. The challenges faced and the learning I have gone through will come of great help in the future. There is something that should be noted in this conclusion.
 
-Limitations: Still there are some limitations to this blog app. If I just want to go through a brief discussion then we can say that we could make the UI more attractive. We could add more features to this project.
+  Limitations: Still there are some limitations to this blog app. If I just want to go through a brief discussion then we can say that we could make the UI more     attractive. We could add more features to this project.
 
-• It would be better if I could add time and date for each post.
+    • It would be better if I could add time and date for each post.
 
-• It would be better if creator details were also shown in their blog post.
+    • It would be better if creator details were also shown in their blog post.
 
-• If I could add auto-reload functionality in this app.
+    • If I could add auto-reload functionality in this app.
 
-• If I could make a more efficient UI.
+    • If I could make a more efficient UI.
 
-I have found out the mentioned limitations above. I am so on it to meet those limitations and build a competitive application.
+  I have found out the mentioned limitations above. I am so on it to meet those limitations and build a competitive application.
 
-Highlighting point:
+    Highlighting point:
 
-• Authorized Users can create a blog post in this application.
+    • Authorized Users can create a blog post in this application.
 
-• Authorized Users can update and delete any post at any time.
+    • Authorized Users can update and delete any post at any time.
 
-• The UI is simple and minimal.
+    • The UI is simple and minimal.
 
-• This App has Favourite options.
+    • This App has Favourite options.
 
-• Firebase Authentication For better security.
+    • Firebase Authentication For better security.
 
 
 ### Future Scope
