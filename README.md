@@ -12,19 +12,19 @@ Any desktop/laptop with 8GB RAM and a 2.0 GHz Processor that is capable of runni
 Any smartphone with 2+ GB RAM and a 1+ GHz processor For Using App.
 Used Tools in this project are mentioned below -
 
-  •	Framework/library – Flutter 3.0.1, GetX
-  
-  •	Language – Dart v2.5
-  
-  •	Database – Firebase.
-  
-  •	Authentication – Firebase Auth.
-  
-  •	IDE - VS Code
-  
-  •	Version Control – GitHub
-  
-  •	Android Emulator – Google Pixel. (Android v 7.0)
+    •	Framework/library – Flutter 3.0.1, GetX
+
+    •	Language – Dart v2.5
+
+    •	Database – Firebase.
+
+    •	Authentication – Firebase Auth.
+
+    •	IDE - VS Code
+
+    •	Version Control – GitHub
+
+    •	Android Emulator – Google Pixel. (Android v 7.0)
 
 
 
@@ -115,7 +115,7 @@ There are many major motivations behind this project. One of them is getting our
 
 This was a great experience doing this project. This project was intended to make a basic blog application with GetX. I hope the intention of the program gets fully filled out. The challenges faced and the learning I have gone through will come of great help in the future. There is something that should be noted in this conclusion.
 
-  Limitations: Still there are some limitations to this blog app. If I just want to go through a brief discussion then we can say that we could make the UI more     attractive. We could add more features to this project.
+Limitations: Still there are some limitations to this blog app. If I just want to go through a brief discussion then we can say that we could make the UI more     attractive. We could add more features to this project.
 
     • It would be better if I could add time and date for each post.
 
@@ -125,9 +125,9 @@ This was a great experience doing this project. This project was intended to mak
 
     • If I could make a more efficient UI.
 
-  I have found out the mentioned limitations above. I am so on it to meet those limitations and build a competitive application.
-
-    Highlighting point:
+ I have found out the mentioned limitations above. I am so on it to meet those limitations and build a competitive application.
+ 
+ Highlighting point:
 
     • Authorized Users can create a blog post in this application.
 
