@@ -1,6 +1,5 @@
 import 'package:blog_app/app/data/global_widgets/app_bar.dart';
 import 'package:blog_app/app/models/blog_model.dart';
-import 'package:blog_app/app/modules/title/views/title_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

@@ -15,8 +15,7 @@ class FirebaseFunctions {
   final FirebaseStorage _storage = FirebaseStorage.instance;
   bool _hasMoreData = true;
   DocumentSnapshot? _lastDocument;
-  // int _documentLimit = 5;
-  int _documentLimit = 50;
+  int _documentLimit = 5;
   var isLoading = false.obs;
 
   Future<void> createUserCredential(String name, String email) async {

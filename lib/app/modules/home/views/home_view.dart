@@ -1,5 +1,4 @@
 import 'package:blog_app/app/data/global_widgets/post.dart';
-import 'package:blog_app/app/modules/title/views/title_view.dart';
 import 'package:blog_app/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -9,7 +8,6 @@ import 'package:get/get.dart';
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
-  const HomeView({Key? key}) : super(key: key);
 
   Future<void> _refresh() async {
     controller.getData();

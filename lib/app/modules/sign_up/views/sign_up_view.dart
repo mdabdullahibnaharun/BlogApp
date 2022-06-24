@@ -1,11 +1,10 @@
 import 'package:blog_app/app/data/global_widgets/custom_button.dart';
-import 'package:blog_app/app/data/global_widgets/text_field.dart';
-import 'package:blog_app/app/modules/title/views/title_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../data/global_widgets/title.dart';
 import '../controllers/sign_up_controller.dart';
 
 class SignUpView extends GetView<SignUpController> {
@@ -21,7 +20,7 @@ class SignUpView extends GetView<SignUpController> {
             SizedBox(
               height: 80.h,
             ),
-            const TitleView(),
+            const TitleLogo(),
             SizedBox(
               height: 60.h,
             ),
@@ -38,7 +37,7 @@ class SignUpView extends GetView<SignUpController> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.all(20.0),
+              padding: const EdgeInsets.all(20.0),
               child: TextField(
                 controller: controller.fullName,
                 decoration: InputDecoration(

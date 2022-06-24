@@ -1,6 +1,5 @@
 import 'package:blog_app/app/data/global_widgets/app_bar.dart';
 import 'package:blog_app/app/data/global_widgets/post.dart';
-import 'package:blog_app/app/models/blog_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -9,6 +8,7 @@ import 'package:get/get.dart';
 import '../controllers/favourite_controller.dart';
 
 class FavouriteView extends GetView<FavouriteController> {
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -16,7 +16,7 @@ class FavouriteView extends GetView<FavouriteController> {
         body: Column(
           mainAxisSize: MainAxisSize.max,
           children: [
-            CustomAppBar(title: "Favourite"),
+            const CustomAppBar(title: "Favourite"),
             Expanded(
               child: GetBuilder<FavouriteController>(builder: (value) {
                 if (value.models.isNotEmpty) {
@@ -34,7 +34,7 @@ class FavouriteView extends GetView<FavouriteController> {
                     },
                   );
                 } else {
-                  return Center(
+                  return const Center(
                     child: Text("No Favourites available"),
                   );
                 }

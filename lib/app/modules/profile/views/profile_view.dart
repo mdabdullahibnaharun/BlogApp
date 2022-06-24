@@ -1,11 +1,8 @@
 import 'package:blog_app/app/data/const.dart';
 import 'package:blog_app/app/data/firebase/firebase_auth.dart';
 import 'package:blog_app/app/data/global_widgets/tiles.dart';
-import 'package:blog_app/app/modules/authentication/controllers/authentication_controller.dart';
-import 'package:blog_app/app/modules/login/controllers/login_controller.dart';
+import 'package:blog_app/app/data/global_widgets/title.dart';
 import 'package:blog_app/app/routes/app_pages.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -17,86 +14,22 @@ import '../controllers/profile_controller.dart';
 class ProfileView extends GetView<ProfileController> {
   final FirebaseAuthentication _authentication = FirebaseAuthentication();
 
+  ProfileView({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
         body: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Column(
               mainAxisSize: MainAxisSize.max,
               children: [
                 SizedBox(
                   height: 40.h,
                 ),
-                Container(
-                  width: double.infinity,
-                  padding: EdgeInsets.symmetric(horizontal: 20.sp),
-                  child: Center(
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          "B",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.blue,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Text(
-                          "l",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.lime,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Text(
-                          "o",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.orange,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Text(
-                          "g",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.green,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Text(
-                          " A",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.black,
-                            fontWeight: FontWeight.w400,
-                          ),
-                        ),
-                        Text(
-                          "p",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.black,
-                            fontWeight: FontWeight.w400,
-                          ),
-                        ),
-                        Text(
-                          "p",
-                          style: TextStyle(
-                            fontSize: 40.sp,
-                            color: Colors.black,
-                            fontWeight: FontWeight.w400,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
+                const TitleLogo(),
                 SizedBox(
                   height: 20.h,
                 ),

@@ -3,14 +3,13 @@ import 'package:blog_app/app/data/global_widgets/custom_button.dart';
 import 'package:blog_app/app/data/global_widgets/text_field.dart';
 import 'package:blog_app/app/models/blog_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:get/get.dart';
 
-import '../../title/views/title_view.dart';
 import '../controllers/upload_blog_controller.dart';
 
+// ignore: must_be_immutable
 class UploadBlogView extends GetView<UploadBlogController> {
   BlogsModel? model = Get.arguments;
 

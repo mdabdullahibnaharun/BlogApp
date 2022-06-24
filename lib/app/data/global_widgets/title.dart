@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'package:get/get.dart';
-
-import '../controllers/title_controller.dart';
-
-class TitleView extends GetView<TitleController> {
+class TitleLogo extends StatelessWidget {
+  const TitleLogo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -84,5 +81,6 @@ class TitleView extends GetView<TitleController> {
         ),
       ),
     );
+    ;
   }
 }

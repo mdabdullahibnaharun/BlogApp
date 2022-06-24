@@ -8,7 +8,6 @@ import 'package:get/get.dart';
 import '../controllers/my_blogs_controller.dart';
 
 class MyBlogsView extends GetView<MyBlogsController> {
-  const MyBlogsView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
