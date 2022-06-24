@@ -1,11 +1,10 @@
 import 'package:get/get.dart';
 
 class ProfileController extends GetxController {
-  // ignore: todo
   //TODO: Implement ProfileController
 
   final count = 0.obs;
-  
+
   @override
   void onInit() {
     super.onInit();

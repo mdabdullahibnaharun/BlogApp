@@ -8,7 +8,6 @@ import 'package:get/get.dart';
 import '../controllers/favourite_controller.dart';
 
 class FavouriteView extends GetView<FavouriteController> {
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(

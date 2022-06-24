@@ -1,7 +1,7 @@
 import 'package:blog_app/app/data/const.dart';
 import 'package:blog_app/app/data/firebase/firebase_auth.dart';
 import 'package:blog_app/app/data/global_widgets/tiles.dart';
-import 'package:blog_app/app/data/global_widgets/title.dart';
+import 'package:blog_app/app/data/global_widgets/title_logo.dart';
 import 'package:blog_app/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -13,8 +13,6 @@ import '../controllers/profile_controller.dart';
 
 class ProfileView extends GetView<ProfileController> {
   final FirebaseAuthentication _authentication = FirebaseAuthentication();
-
-  ProfileView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -15,8 +15,7 @@ class AuthenticationController extends GetxController {
 
   @override
   void onReady() {
-    // ignore: todo
-    // TODO: implement onReady
+
     super.onReady();
     isLoggedIn();
   }

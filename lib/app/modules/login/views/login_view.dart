@@ -1,7 +1,6 @@
 import 'package:blog_app/app/data/global_widgets/custom_button.dart';
-import 'package:blog_app/app/data/global_widgets/title.dart';
+import 'package:blog_app/app/data/global_widgets/title_logo.dart';
 import 'package:blog_app/app/routes/app_pages.dart';
-import 'package:blog_app/app/modules/title/views/title_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -10,7 +9,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../controllers/login_controller.dart';
 
 class LoginView extends GetView<LoginController> {
-  const LoginView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

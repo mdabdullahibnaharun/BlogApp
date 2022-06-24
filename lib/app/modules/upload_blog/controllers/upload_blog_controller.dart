@@ -89,7 +89,7 @@ class UploadBlogController extends GetxController {
   }
 
   void updateData() {
-    // Get.back();
+    Get.back();
     Get.toNamed(Routes.HOME);
     if (Get.isRegistered<MyBlogsController>()) {
       final controller = Get.find<MyBlogsController>();

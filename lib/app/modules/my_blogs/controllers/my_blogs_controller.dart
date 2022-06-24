@@ -40,7 +40,6 @@ class MyBlogsController extends GetxController {
 
   @override
   void onReady() {
-    // ignore: todo
     // TODO: implement onReady
     super.onReady();
     Indicator.showLoading();
@@ -48,7 +47,6 @@ class MyBlogsController extends GetxController {
 
   @override
   void onInit() {
-    // ignore: todo
     // TODO: implement onInit
     super.onInit();
     getMyBlogData();

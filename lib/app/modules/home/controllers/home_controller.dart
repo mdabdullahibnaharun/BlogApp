@@ -18,7 +18,7 @@ class HomeController extends GetxController {
   }
 
   @override
-  void onReady() async {
+  void onReady() {
     // ignore: todo
     // TODO: implement onReady
     super.onReady();
@@ -30,7 +30,7 @@ class HomeController extends GetxController {
   }
 
   @override
-  void onInit() async {
+  void onInit() {
     super.onInit();
     getData();
     getFavouriteList();

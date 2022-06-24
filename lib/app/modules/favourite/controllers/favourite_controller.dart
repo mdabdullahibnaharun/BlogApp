@@ -21,16 +21,12 @@ class FavouriteController extends GetxController {
 
   @override
   void onReady() {
-    // ignore: todo
-    // TODO: implement onReady
     super.onReady();
     Indicator.showLoading();
   }
 
   @override
   void onInit() {
-    // ignore: todo
-    // TODO: implement onInit
     super.onInit();
     getFavouriteList();
   }
